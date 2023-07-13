@@ -1,0 +1,64 @@
+* {
+    background-color: rgb(171, 140, 255);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    padding: .5rem;
+}
+
+.container {
+    border: 3px solid white;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% 25%;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.container:hover {
+    border-radius: .5rem;
+    border-color: rgb(8, 0, 255);
+}
+
+input {
+    border-radius: .5rem;
+    border-color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input:hover {
+    border-radius: .5rem;
+    border-color: rgb(8, 0, 255);
+}
+
+button {
+    margin-top: 2rem;
+    border-radius: 10rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-color: white;
+}
+
+button:hover {
+    border-radius: 10rem;
+    border-color: rgb(8, 0, 255);
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    text-align: center;
+    margin-top: 5rem;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    font-weight: bold;
+    font-size: 3rem;
+}
